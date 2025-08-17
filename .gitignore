@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Translation Progress (temporary files)
+*_translation_progress.json
+translation_progress.json
+translation_report.json
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# API Keys (security)
+.env
+*.key
+secrets.json
+
+# Large files that shouldn't be in git
+*.zip
+*.rar
+*.7z
+
+# Text files (don't upload to GitHub)
+*_translated.txt
+*_translated_fixed.txt
+*.txt
+!requirements.txt
+!README.md
+!GITHUB_SETUP.md
+
+# All PDFs except the final working ones
+*.pdf
+# But keep ONLY the final working PDFs (important results)
+!matriarch_thai_font.pdf
+!viridescent_thai_font.pdf
+
+# Keep the organized folder structure but ignore large files inside
+FINAL_THAI_TRANSLATIONS/**/*.pdf
+FINAL_THAI_TRANSLATIONS/**/*.txt
+!FINAL_THAI_TRANSLATIONS/**/README.md
+!FINAL_THAI_TRANSLATIONS/**/*.bat
+
+# Backup files
+*.bak
+*.backup
